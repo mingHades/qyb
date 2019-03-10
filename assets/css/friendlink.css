@@ -1,0 +1,26 @@
+.db-wrap{
+	width: 100%;
+	margin-top: 40px;
+}
+.db-cont{
+	width: 1190px;
+	height: 185px;
+	background: #fff;
+	margin:0 auto;
+}
+.db-cont p{
+	margin-top: 10px;
+}
+.ys a{
+	color: #000;
+}
+.db-cont a:hover{
+	text-decoration:underline;
+}
+.xk a{
+	color: #b0b0b0;
+	margin-right: 38px;
+}
+.ju a{
+	margin-right: 20px;
+}

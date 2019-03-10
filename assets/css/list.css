@@ -1,0 +1,340 @@
+body{
+	font-size: 12px;
+	font-family: arial,微软雅黑;
+	background:#fff;
+}
+.area{
+	width: 990px;
+	margin:0 auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+a{
+	color: #999;
+}
+a:hover{
+	color: #f00;
+	text-decoration: underline;
+}
+/*top-nav开始*/
+.top-nav{
+	width: 100%;
+	background: #f2f2f2;
+	height: 27px;
+}
+.nav{
+	height: 27px;
+	line-height: 27px;
+}
+.nav i{
+	color: #ff0036;
+}
+.nav a{
+	margin-right:15px; 
+	display: block;
+	float: left;
+	text-align: center;
+}
+#tb,#sjzc{
+	width: 74px;
+	height: 27px;
+}
+#scj{
+	width: 62px;
+	height: 27px;
+}
+.on{
+	background: #fff;
+}
+.wo{
+	position: relative;
+}
+#wode{
+	position: absolute;
+	top: 27px;
+	left:0;
+	background: #fff;
+	width: 105px;
+	height: 55px;
+	display: none;
+}
+.sc{
+	position: relative;
+}
+#sc{
+	position: absolute;
+	top: 27px;
+	left:0;
+	background: #fff;
+	width: 105px;
+	height: 55px;
+	display: none;
+}
+.sj{
+	position: relative;
+}
+#sj{
+	position: absolute;
+	top: 27px;
+	right:15px;
+	background: #fff;
+	width: 140px;
+	height:280px;
+	display: none;
+}
+/*search开始*/
+.search-wrap{
+	width: 100%;
+	height: 92px;
+}
+.search{
+	height: 92px;
+}
+.search img{
+	width: 190px;
+	height: 28px;
+	margin:32px 0;
+}
+.search input{
+	width: 447px;
+	height:41px;
+	margin-top: 30px;
+	border: 3px solid #ff0036;
+}
+.search button{
+	width: 90px;
+	height: 44px;
+	border:0;
+	background: #ff0036;
+	margin-top: 1px
+}
+/*选项卡轮播图开始*/
+.xl{
+	width: 1200px;
+	height: 419px;
+	margin:0 auto;
+
+}
+.xxk{
+	width: 238px;
+	height: 417px;
+	border: 1px solid #ccc;
+	position: relative;
+}
+#nav li{
+	width: 228px;
+	height: 82px;
+	border-bottom: 1px solid #fff; 
+	padding-left: 10px;
+}
+#nav li a{
+	margin: 5px;
+	font-size: 14px;
+	display: inline-block;
+}	
+#nav .active{
+	background: #f60;
+	columns: #fff;
+}
+
+#cont div{
+	width: 338px;
+	height: 417px;
+	border:2px solid #f60;
+	position: absolute;
+	top: 0;
+	left: 238px;
+	display: none;
+	z-index: 100;
+	background: #fff;
+	opacity: 0.9;
+}
+#cont h4,p{
+	padding: 10px 0 0 10px;
+}
+#cont a{
+	padding-right: 10px;
+}
+#cont .show{
+	display: block;
+}
+.lunbo li{
+	width: 920px;
+	height: 417px;
+	display: none;
+}
+.lunbo li img{
+	width: 920px;
+	height: 417px;
+}
+.lunbo .acti{
+	display: block;
+}
+/*热门品牌*/
+.rmpp{
+	height: 400px;
+	margin-top: 30px;
+}
+.yzt{
+	margin-top: 15px;
+	height: 336px;
+	width: 1190px;
+	border-top: 3px solid #000;
+}
+/*1F开始*/
+.area1{
+	width: 1190px;
+	margin:0 auto;
+}
+
+.f1{
+	margin-top: 20px;
+}
+.title{
+	font-size: 20px;
+}
+.title a{
+	font-size: 14px;
+	color: #666;
+	margin-left: 10px;
+}
+.item{
+	width: 1190px;
+	height: 346px;
+	border-top: 3px solid #000;
+	margin-top: 10px;
+	border-left:  1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.main{
+	width: 235px;
+	height: 322px;
+	border-right: 1px dashed #ccc;
+	margin-top: 10px;
+	padding-left: 2px;
+}
+.main img{
+	width: 230px;
+	height: 230px;
+}
+.shop-title{
+	font-size: 14px;
+	padding:30px 0 0 10px;
+	display: inline-block;
+}
+.jg{
+	font-size: 16px;
+	color: #f60;
+}
+.mains{
+	width: 230px;
+	height: 140px;
+	border-bottom: 1px dashed #ccc;
+	position: relative;
+	margin-top: 28px;
+}
+.mains img{
+	width: 125px;
+	height: 120px;
+	position: absolute;
+	right: 0;
+	top: 14px;
+}
+.shop-titles{
+	font-size: 14px;
+	margin-top:-10px;
+	display: inline-block;
+}
+/*投诉*/
+.ts{
+	width: 1100px;
+	height: 475px;
+	background: #fff;
+	margin:0 auto;
+}
+.ts1{
+	width: 1100px;
+	height: 210px;
+	border-bottom:1px solid #ccc; 
+}
+.ts1 div{
+	color: #000;
+	float: left;
+	margin:58px 117px 0 0;
+}
+.zt i{
+	font-size: 60px;
+}
+.ts1 p{
+	font-size: 16px;
+}
+.dd{
+	margin: 50px 207px 0 0;
+	font-size: 16px;
+}
+.dd dd{
+	padding-top: 10px;
+}
+/*侧边栏开始*/
+/*侧边栏开始*/
+.cbl{
+	width: 35px;
+	height: 950px;
+	background: #000;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1200;
+	/*display: none;*/
+}
+.one{
+	width: 35px;
+	height: 35px;
+	margin-top: 200px;
+}
+.cbl div:hover{
+	background: #ff0036;
+}
+.cbl i{
+	font-size: 20px;
+	margin: 20px 0 0 5px;
+	color: #fff;
+	display: block;
+	line-height: 35px;
+	text-align: center;
+}
+/*楼层*/
+.lc{
+	position: fixed;
+	left: 100px;
+	top: 290px;
+}
+.lc ul{
+	width: 35px;
+	height: 179px;
+	border: 1px solid #ccc;
+}
+.lc li{
+	width: 35px;
+	height: 35px;
+	border-bottom:1px solid #ccc; 
+	text-align: center;
+	line-height: 35px;
+}
+/*瀑布流*/
+#aj{
+	width: 1200px;
+	margin-top: 20px;
+	margin: 0 auto;
+	font-size: 0;	
+}
+#aj img{
+	width: 280px;
+	height: 280px;
+	margin: 3px 0 0 3px;
+}

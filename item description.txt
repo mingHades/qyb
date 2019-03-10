@@ -1,0 +1,6 @@
+页面出现的效果
+- index.html 轮播图  选项卡 楼层滚动 二级导航 
+- list.html 	选项卡 二级导航 瀑布流 轮播图 楼层滚动
+- details.html  放大镜
+- login.html  ajax数据验证 
+- register.html  遮罩层 拖动  正则匹配
